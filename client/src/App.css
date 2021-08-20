@@ -1,0 +1,183 @@
+
+
+.demo{
+  color:green;
+}
+.form{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-self: center;
+  margin-left: 500px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: center;
+  width: 50.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* below error page  */
+.container {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+}
+ 
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(241,241,241);
+  margin: 0px;
+  padding: 0px;
+}
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  margin: 0px;
+  padding: 10px;
+}
+h5 {
+  align-self: center;
+  margin-left: 700px;
+  font-size: xx-large;
+}
+h4 {
+  top: 21px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: green;
+  margin: 20px;
+  padding: 10px;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  position: fixed;
+  top: -250px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(241,241,241);
+  padding-left: 50px;
+  margin: 0px;
+}
+ 
+p a {
+  color: rgb(241,241,241);
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+p a:hover {
+  color: #808080;
+  text-decoration: underline;
+ 
+}
+ 
+.text {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+  z-index: 3;
+  display: block;
+}
+ 
+ 
+ 
+body {
+  margin: 0;
+}
+ 
+canvas {
+  display: block;
+  
+}
+ 
+ 
+ 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(14,14,14);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
